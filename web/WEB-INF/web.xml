@@ -19,4 +19,12 @@
         <servlet-name>PostParametersServlet</servlet-name>
         <url-pattern>/PostData</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>HttpServlet</servlet-name>
+        <servlet-class>HttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HttpServlet</servlet-name>
+        <url-pattern>/Http</url-pattern>
+    </servlet-mapping>
 </web-app>
