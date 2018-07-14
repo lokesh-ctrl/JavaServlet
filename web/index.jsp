@@ -11,14 +11,14 @@
 <body>
   <form name="EmployeeForm"
         method="post"
-        action="http://localhost:8080/PostParametersServlet">
+        action="http://localhost:8080/PostData">
     <table> <tr>
       <td><B>Employee Name:</B></td>
-      <td><input type=textbox name="e" size="25" value=""></td>
+      <td><input type=textbox name="employeeName" size="25" value=""></td>
     </tr>
       <tr>
         <td><B>Enter Phone Number:</B></td>
-        <td><input type=textbox name="p" size="25" value=""></td>
+        <td><input type=textbox name="phoneNumber" size="25" value=""></td>
       </tr>
     </table>
     <input type=submit value="Submit">
