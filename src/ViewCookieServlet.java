@@ -15,6 +15,9 @@ public class ViewCookieServlet extends HttpServlet {
             printWriter.write(i);
             printWriter.write("name of cookie = "+cookies[i].getName());
             printWriter.write("value of cookie="+ cookies[i].getValue());
+            printWriter.write("</br>");
         }
+        printWriter.write("end of cookies");
+        printWriter.close();
     }
 }
