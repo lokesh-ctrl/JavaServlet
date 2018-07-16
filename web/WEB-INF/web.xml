@@ -27,4 +27,12 @@
         <servlet-name>HttpServlet</servlet-name>
         <url-pattern>/Http</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AddCookieServlet</servlet-name>
+        <servlet-class>AddCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCookieServlet</servlet-name>
+        <url-pattern>/addcookie</url-pattern>
+    </servlet-mapping>
 </web-app>
