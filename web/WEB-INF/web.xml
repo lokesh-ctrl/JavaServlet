@@ -43,4 +43,12 @@
         <servlet-name>ViewCookieServlet</servlet-name>
         <url-pattern>/viewcookie</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>DatabaseServlet</servlet-name>
+        <servlet-class>DatabaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DatabaseServlet</servlet-name>
+        <url-pattern>/db</url-pattern>
+    </servlet-mapping>
 </web-app>
